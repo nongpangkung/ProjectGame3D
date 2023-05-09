@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ad148b63bff88479b9727261fbe32a, type: 3}
+  m_Name: BossOdinSwordLv2
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 0c8ef486143232f44b2b3d5fc3f0ff56, type: 3}
+  itemName: BossOdinSword
+  itemID: 101
+  itemType: 0
+  price: 0
+  modelPrefab: {fileID: 138024, guid: 1108c0f17ab836b47a712cc0be0a89b5, type: 3}
+  isUnarmed: 0
+  weaponController: {fileID: 22100000, guid: b9168a39f7fa0674780dd5761e3aa767, type: 2}
+  weaponType: 4
+  physicalDamage: 510
+  fireDamage: 0
+  lightAttackDamageModifier: 1
+  heavyAttackDamageModifier: 1
+  criticalDamageMuiltiplier: 4
+  guardBreakModifier: 1
+  poiseBreak: 110
+  offensivePoiseBonus: 0
+  physicalBlockingDamageAbsorption: 0
+  fireBlockingDamageAbsorption: 0
+  stability: 67
+  baseStaminaCost: 0
+  lightAttackStaminaMultiplier: 0
+  heavyAttackStaminaMultiplier: 0
+  oh_hold_RB_Action: {fileID: 0}
+  oh_tap_RB_Action: {fileID: 11400000, guid: 0015f0ec63347f146842816ec9610ad5, type: 2}
+  oh_tap_LB_Action: {fileID: 0}
+  oh_hold_LB_Action: {fileID: 0}
+  oh_tap_RT_Action: {fileID: 11400000, guid: c8daab469503bc5489c14b314a39bdf5, type: 2}
+  oh_hold_RT_Action: {fileID: 0}
+  oh_tap_LT_Action: {fileID: 0}
+  oh_hold_LT_Action: {fileID: 0}
+  th_hold_RB_Action: {fileID: 0}
+  th_tap_RB_Action: {fileID: 11400000, guid: 0015f0ec63347f146842816ec9610ad5, type: 2}
+  th_tap_LB_Action: {fileID: 0}
+  th_hold_LB_Action: {fileID: 0}
+  th_tap_RT_Action: {fileID: 11400000, guid: c8daab469503bc5489c14b314a39bdf5, type: 2}
+  th_hold_RT_Action: {fileID: 0}
+  th_tap_LT_Action: {fileID: 0}
+  th_hold_LT_Action: {fileID: 0}
+  weaponWhooshes:
+  - {fileID: 8300000, guid: 3ae5aefb2ff204945919c7e53921ddb2, type: 3}
+  - {fileID: 8300000, guid: 95a30ec470a5ed84dbb4955d43070788, type: 3}
+  - {fileID: 8300000, guid: 828ac9015ae356c4685af4e03aae3719, type: 3}
+  - {fileID: 8300000, guid: 0228ad49cfb9c414f87ec8c0411f75d7, type: 3}

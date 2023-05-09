@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ad148b63bff88479b9727261fbe32a, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 178f8fa3056485a448ab6b8b12fd80bf, type: 3}
+  itemName: Shield
+  itemID: 113
+  itemType: 0
+  price: 1200
+  modelPrefab: {fileID: 185350, guid: 035d80b1afddae84cb33826e5921e559, type: 3}
+  isUnarmed: 0
+  weaponController: {fileID: 0}
+  weaponType: 5
+  physicalDamage: 0
+  fireDamage: 0
+  lightAttackDamageModifier: 0
+  heavyAttackDamageModifier: 0
+  criticalDamageMuiltiplier: 4
+  guardBreakModifier: 1
+  poiseBreak: 0
+  offensivePoiseBonus: 0
+  physicalBlockingDamageAbsorption: 99
+  fireBlockingDamageAbsorption: 99
+  stability: 67
+  baseStaminaCost: 0
+  lightAttackStaminaMultiplier: 0
+  heavyAttackStaminaMultiplier: 0
+  oh_hold_RB_Action: {fileID: 0}
+  oh_tap_RB_Action: {fileID: 0}
+  oh_tap_LB_Action: {fileID: 0}
+  oh_hold_LB_Action: {fileID: 11400000, guid: 5c1acf625deaa624b878a548ce267e58, type: 2}
+  oh_tap_RT_Action: {fileID: 0}
+  oh_hold_RT_Action: {fileID: 0}
+  oh_tap_LT_Action: {fileID: 11400000, guid: a11d75e757f7f314e8d78351c4d12003, type: 2}
+  oh_hold_LT_Action: {fileID: 0}
+  th_hold_RB_Action: {fileID: 0}
+  th_tap_RB_Action: {fileID: 0}
+  th_tap_LB_Action: {fileID: 0}
+  th_hold_LB_Action: {fileID: 0}
+  th_tap_RT_Action: {fileID: 0}
+  th_hold_RT_Action: {fileID: 0}
+  th_tap_LT_Action: {fileID: 0}
+  th_hold_LT_Action: {fileID: 0}
+  weaponWhooshes: []
